@@ -1,0 +1,60 @@
+<h1 class="display-4">Clients</h1>
+<hr />
+
+
+<form #f="ngForm" *ngIf="!success" (ngSubmit)="onSubmit(clientName.value, clientPhone.value, clientOccupation.value); clientName.value=''; clientPhone.value=''; clientOccupation.value='';">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="form-group">
+        <label for="name" class="sr-only">Name</label>
+        <input type="text" #clientName class="form-control" placeholder="Client's Name" required autofocus data-val="true" />
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="form-group">
+        <label for="name" class="sr-only">Phone</label>
+        <input type="text" #clientPhone class="form-control" placeholder="Phone number" required />
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="form-group">
+        <label for="name" class="sr-only">Occupation</label>
+        <input type="text" #clientOccupation class="form-control" placeholder="Occupation Name" required />
+      </div>
+    </div>
+    <div class="col-md-3">
+      <button class="btn btn-primary" type="submit" [disabled]="!f.form.valid">Save</button>
+    </div>
+  </div>
+</form>
+<hr />
+<p *ngIf="!clients"><em>Loading...</em></p>
+<table class="table table-striped table-sm font-size-sm" *ngIf="clients">
+  <caption>Client List</caption>
+  <thead>
+    <tr>
+      <th>S#</th>
+      <th>Name</th>
+      <th>Phone</th>
+      <th>Occupation</th>
+      <th>Created Date</th>
+      <th>Modified Date</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let client of clients; let i = index">
+      <td>{{i+1}}</td>
+      <td>{{client.name}}</td>
+      <td>{{client.phone}}</td>
+      <td>{{client.occupation}}</td>
+      <td>{{client.createdDateFormatted}}</td>
+      <td>{{client.modifiedDateFormatted}}</td>
+      <td>
+        <a routerLink="/client/details/{{client.id}}">
+          <span class="btn btn-primary btn-sm">Details</span>
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>

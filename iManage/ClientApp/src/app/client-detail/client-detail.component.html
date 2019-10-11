@@ -1,0 +1,30 @@
+<div *ngIf="client">
+  <h1 class="display-3">Client Details</h1>
+  <hr />
+  <h2 class="display-4">{{client.name | uppercase}}</h2>
+  <hr />
+    <div class="row">
+      <div class="col-md-3">
+        <div class="form-group">
+          <label for="name" class="sr-only">Name</label>
+          <input type="text" [(ngModel)]="client.name" class="form-control" placeholder="Client's Name" required autofocus data-val="true" />
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="form-group">
+          <label for="name" class="sr-only">Phone</label>
+          <input type="text" [(ngModel)]="client.phone" class="form-control" placeholder="Phone number" required />
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="form-group">
+          <label for="name" class="sr-only">Occupation</label>
+          <input type="text" [(ngModel)]="client.occupation" class="form-control" placeholder="Occupation Name" required />
+        </div>
+      </div>
+      <div class="col-md-3">
+        <button class="btn btn-primary" (click)="save()">Save</button>
+        <button class="btn btn-danger ml-1" (click)="goBack()" >Back</button>
+      </div>
+    </div>
+</div>
