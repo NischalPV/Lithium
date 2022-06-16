@@ -1,0 +1,16 @@
+﻿global using System;
+global using System.Net.Sockets;
+global using System.Text;
+global using Autofac;
+global using Lithium.BuildingBlocks.EventBus;
+global using Lithium.BuildingBlocks.EventBus.Abstractions;
+global using Lithium.BuildingBlocks.EventBus.Events;
+global using Lithium.BuildingBlocks.EventBus.Extensions;
+global using Microsoft.Extensions.Logging;
+global using Newtonsoft.Json;
+global using Newtonsoft.Json.Linq;
+global using Polly;
+global using Polly.Retry;
+global using RabbitMQ.Client;
+global using RabbitMQ.Client.Events;
+global using RabbitMQ.Client.Exceptions;

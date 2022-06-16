@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DAC25A4F-FF13-4AF6-9524-11464D73EA9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{04C22D06-E62D-4725-9BAB-EE02274AEBE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus", "src\BuildingBlocks\EventBus\EventBus\EventBus.csproj", "{C9E10A9E-B241-4DC3-A254-5A78AE9EFA06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBusRabbitMQ", "src\BuildingBlocks\EventBus\EventBusRabbitMQ\EventBusRabbitMQ.csproj", "{D0D69C1A-A241-4672-89D7-2CA2515EFA47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationEventLogEF", "src\BuildingBlocks\EventBus\IntegrationEventLogEF\IntegrationEventLogEF.csproj", "{418E6450-CB32-4687-9E5C-40C0614E9C13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{152FE0C3-AE4C-4005-B490-A2773141E8AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lithium.Identity", "src\Services\Lithium.Identity\Lithium.Identity.csproj", "{ADBCD95E-7B21-44EA-BF93-58883DCE9170}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9E10A9E-B241-4DC3-A254-5A78AE9EFA06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9E10A9E-B241-4DC3-A254-5A78AE9EFA06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9E10A9E-B241-4DC3-A254-5A78AE9EFA06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9E10A9E-B241-4DC3-A254-5A78AE9EFA06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D69C1A-A241-4672-89D7-2CA2515EFA47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D69C1A-A241-4672-89D7-2CA2515EFA47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D69C1A-A241-4672-89D7-2CA2515EFA47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D69C1A-A241-4672-89D7-2CA2515EFA47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{418E6450-CB32-4687-9E5C-40C0614E9C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{418E6450-CB32-4687-9E5C-40C0614E9C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{418E6450-CB32-4687-9E5C-40C0614E9C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{418E6450-CB32-4687-9E5C-40C0614E9C13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADBCD95E-7B21-44EA-BF93-58883DCE9170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBCD95E-7B21-44EA-BF93-58883DCE9170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADBCD95E-7B21-44EA-BF93-58883DCE9170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADBCD95E-7B21-44EA-BF93-58883DCE9170}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FCF3EF7D-22D4-41F9-8A79-FDD5AF6C1E6F}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04C22D06-E62D-4725-9BAB-EE02274AEBE1} = {DAC25A4F-FF13-4AF6-9524-11464D73EA9D}
+		{C9E10A9E-B241-4DC3-A254-5A78AE9EFA06} = {04C22D06-E62D-4725-9BAB-EE02274AEBE1}
+		{D0D69C1A-A241-4672-89D7-2CA2515EFA47} = {04C22D06-E62D-4725-9BAB-EE02274AEBE1}
+		{418E6450-CB32-4687-9E5C-40C0614E9C13} = {04C22D06-E62D-4725-9BAB-EE02274AEBE1}
+		{152FE0C3-AE4C-4005-B490-A2773141E8AD} = {DAC25A4F-FF13-4AF6-9524-11464D73EA9D}
+		{ADBCD95E-7B21-44EA-BF93-58883DCE9170} = {152FE0C3-AE4C-4005-B490-A2773141E8AD}
+	EndGlobalSection
+EndGlobal
