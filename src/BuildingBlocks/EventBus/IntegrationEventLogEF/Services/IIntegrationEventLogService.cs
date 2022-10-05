@@ -1,4 +1,6 @@
-﻿namespace Lithium.BuildingBlocks.IntegrationEventLogEF.Services;
+﻿using Microsoft.EntityFrameworkCore.Storage;
+
+namespace Lithium.BuildingBlocks.IntegrationEventLogEF.Services;
 
 public interface IIntegrationEventLogService
 {
