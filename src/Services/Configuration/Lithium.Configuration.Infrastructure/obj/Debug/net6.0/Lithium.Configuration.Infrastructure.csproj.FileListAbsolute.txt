@@ -1,0 +1,5 @@
+/Users/nischalvarasada/Projects/Lithium/src/Services/Configuration/Lithium.Configuration.Infrastructure/obj/Debug/net6.0/Lithium.Configuration.Infrastructure.csproj.AssemblyReference.cache
+/Users/nischalvarasada/Projects/Lithium/src/Services/Configuration/Lithium.Configuration.Infrastructure/obj/Debug/net6.0/Lithium.Configuration.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nischalvarasada/Projects/Lithium/src/Services/Configuration/Lithium.Configuration.Infrastructure/obj/Debug/net6.0/Lithium.Configuration.Infrastructure.AssemblyInfoInputs.cache
+/Users/nischalvarasada/Projects/Lithium/src/Services/Configuration/Lithium.Configuration.Infrastructure/obj/Debug/net6.0/Lithium.Configuration.Infrastructure.AssemblyInfo.cs
+/Users/nischalvarasada/Projects/Lithium/src/Services/Configuration/Lithium.Configuration.Infrastructure/obj/Debug/net6.0/Lithium.Configuration.Infrastructure.csproj.CoreCompileInputs.cache

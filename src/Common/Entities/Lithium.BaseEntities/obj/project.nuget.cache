@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "pDy678N4l2Il5tNWIBp3SyIVTL7TSMznb+LVTBhuRG4o8gsZxzYTHIdN4y+hAQrdN2Lh5ShBpr8oOwbXyJCTMQ==",
+  "success": true,
+  "projectFilePath": "/Users/nischalvarasada/Projects/Lithium/src/Common/Entities/Lithium.BaseEntities/Lithium.BaseEntities.csproj",
+  "expectedPackageFiles": [
+    "/Users/nischalvarasada/.nuget/packages/mediatr/11.0.0/mediatr.11.0.0.nupkg.sha512",
+    "/Users/nischalvarasada/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!--<Nullable>enable</Nullable>-->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlocks\EventBus\EventBus\EventBus.csproj" />
+    <ProjectReference Include="..\..\Data\Lithium.DataService\Lithium.DataService.csproj" />
+    <ProjectReference Include="..\..\Services\Lithium.IntegrationService\Lithium.IntegrationService.csproj" />
+    <ProjectReference Include="..\..\Exceptions\Lithium.ApiExceptions\Lithium.ApiExceptions.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="MediatR" />
+    <None Remove="Microsoft.Extensions.Logging" />
+    <None Remove="Serilog" />
+    <None Remove="FluentValidation" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="11.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+    <PackageReference Include="Serilog" Version="2.12.0" />
+    <PackageReference Include="FluentValidation" Version="11.2.2" />
+  </ItemGroup>
+</Project>

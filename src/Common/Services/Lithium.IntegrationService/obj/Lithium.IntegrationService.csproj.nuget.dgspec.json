@@ -1,0 +1,359 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/nischalvarasada/Projects/Lithium/src/Common/Services/Lithium.IntegrationService/Lithium.IntegrationService.csproj": {}
+  },
+  "projects": {
+    "/Users/nischalvarasada/Projects/Lithium/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nischalvarasada/Projects/Lithium/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj",
+        "projectName": "EventBus",
+        "projectPath": "/Users/nischalvarasada/Projects/Lithium/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj",
+        "packagesPath": "/Users/nischalvarasada/.nuget/packages/",
+        "outputPath": "/Users/nischalvarasada/Projects/Lithium/src/BuildingBlocks/EventBus/EventBus/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/nischalvarasada/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nischalvarasada/Projects/Lithium/src/BuildingBlocks/EventBus/IntegrationEventLogEF/IntegrationEventLogEF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nischalvarasada/Projects/Lithium/src/BuildingBlocks/EventBus/IntegrationEventLogEF/IntegrationEventLogEF.csproj",
+        "projectName": "IntegrationEventLogEF",
+        "projectPath": "/Users/nischalvarasada/Projects/Lithium/src/BuildingBlocks/EventBus/IntegrationEventLogEF/IntegrationEventLogEF.csproj",
+        "packagesPath": "/Users/nischalvarasada/.nuget/packages/",
+        "outputPath": "/Users/nischalvarasada/Projects/Lithium/src/BuildingBlocks/EventBus/IntegrationEventLogEF/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/nischalvarasada/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/nischalvarasada/Projects/Lithium/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj": {
+                "projectPath": "/Users/nischalvarasada/Projects/Lithium/src/BuildingBlocks/EventBus/EventBus/EventBus.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nischalvarasada/Projects/Lithium/src/Common/Data/Lithium.DataService/Lithium.DataService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nischalvarasada/Projects/Lithium/src/Common/Data/Lithium.DataService/Lithium.DataService.csproj",
+        "projectName": "Lithium.DataService",
+        "projectPath": "/Users/nischalvarasada/Projects/Lithium/src/Common/Data/Lithium.DataService/Lithium.DataService.csproj",
+        "packagesPath": "/Users/nischalvarasada/.nuget/packages/",
+        "outputPath": "/Users/nischalvarasada/Projects/Lithium/src/Common/Data/Lithium.DataService/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/nischalvarasada/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/nischalvarasada/Projects/Lithium/src/Common/Entities/Lithium.BaseEntities/Lithium.BaseEntities.csproj": {
+                "projectPath": "/Users/nischalvarasada/Projects/Lithium/src/Common/Entities/Lithium.BaseEntities/Lithium.BaseEntities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nischalvarasada/Projects/Lithium/src/Common/Entities/Lithium.BaseEntities/Lithium.BaseEntities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nischalvarasada/Projects/Lithium/src/Common/Entities/Lithium.BaseEntities/Lithium.BaseEntities.csproj",
+        "projectName": "Lithium.BaseEntities",
+        "projectPath": "/Users/nischalvarasada/Projects/Lithium/src/Common/Entities/Lithium.BaseEntities/Lithium.BaseEntities.csproj",
+        "packagesPath": "/Users/nischalvarasada/.nuget/packages/",
+        "outputPath": "/Users/nischalvarasada/Projects/Lithium/src/Common/Entities/Lithium.BaseEntities/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/nischalvarasada/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nischalvarasada/Projects/Lithium/src/Common/Services/Lithium.IntegrationService/Lithium.IntegrationService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nischalvarasada/Projects/Lithium/src/Common/Services/Lithium.IntegrationService/Lithium.IntegrationService.csproj",
+        "projectName": "Lithium.IntegrationService",
+        "projectPath": "/Users/nischalvarasada/Projects/Lithium/src/Common/Services/Lithium.IntegrationService/Lithium.IntegrationService.csproj",
+        "packagesPath": "/Users/nischalvarasada/.nuget/packages/",
+        "outputPath": "/Users/nischalvarasada/Projects/Lithium/src/Common/Services/Lithium.IntegrationService/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/nischalvarasada/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/nischalvarasada/Projects/Lithium/src/BuildingBlocks/EventBus/IntegrationEventLogEF/IntegrationEventLogEF.csproj": {
+                "projectPath": "/Users/nischalvarasada/Projects/Lithium/src/BuildingBlocks/EventBus/IntegrationEventLogEF/IntegrationEventLogEF.csproj"
+              },
+              "/Users/nischalvarasada/Projects/Lithium/src/Common/Data/Lithium.DataService/Lithium.DataService.csproj": {
+                "projectPath": "/Users/nischalvarasada/Projects/Lithium/src/Common/Data/Lithium.DataService/Lithium.DataService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

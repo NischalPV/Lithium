@@ -1,0 +1,40 @@
+﻿@model ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+@{
+    var error = Model?.Error?.Error;
+    var request_id = Model?.Error?.RequestId;
+}
+
+<div class="error-page">
+    <div class="page-header">
+        <h1>Error</h1>
+        <h2 class="text-danger">An error occurred while processing your request.</h2>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="alert alert-danger">
+                Sorry, there was an error
+
+                @if (error != null)
+                {
+                    <strong>
+                        <em>
+                            : @error
+                        </em>
+                    </strong>
+                }
+            </div>
+
+            @if (request_id != null)
+            {
+                <p>
+                    <strong>Request ID:</strong> <code>@request_id</code>
+                </p>
+            }
+        </div>
+    </div>
+</div>

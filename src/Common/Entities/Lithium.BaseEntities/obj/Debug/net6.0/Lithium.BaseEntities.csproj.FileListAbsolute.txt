@@ -1,0 +1,12 @@
+/Users/nischalvarasada/Projects/Lithium/src/Common/Entities/Lithium.BaseEntities/bin/Debug/net6.0/Lithium.BaseEntities.deps.json
+/Users/nischalvarasada/Projects/Lithium/src/Common/Entities/Lithium.BaseEntities/bin/Debug/net6.0/Lithium.BaseEntities.dll
+/Users/nischalvarasada/Projects/Lithium/src/Common/Entities/Lithium.BaseEntities/bin/Debug/net6.0/Lithium.BaseEntities.pdb
+/Users/nischalvarasada/Projects/Lithium/src/Common/Entities/Lithium.BaseEntities/obj/Debug/net6.0/Lithium.BaseEntities.csproj.AssemblyReference.cache
+/Users/nischalvarasada/Projects/Lithium/src/Common/Entities/Lithium.BaseEntities/obj/Debug/net6.0/Lithium.BaseEntities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nischalvarasada/Projects/Lithium/src/Common/Entities/Lithium.BaseEntities/obj/Debug/net6.0/Lithium.BaseEntities.AssemblyInfoInputs.cache
+/Users/nischalvarasada/Projects/Lithium/src/Common/Entities/Lithium.BaseEntities/obj/Debug/net6.0/Lithium.BaseEntities.AssemblyInfo.cs
+/Users/nischalvarasada/Projects/Lithium/src/Common/Entities/Lithium.BaseEntities/obj/Debug/net6.0/Lithium.BaseEntities.csproj.CoreCompileInputs.cache
+/Users/nischalvarasada/Projects/Lithium/src/Common/Entities/Lithium.BaseEntities/obj/Debug/net6.0/Lithium.BaseEntities.dll
+/Users/nischalvarasada/Projects/Lithium/src/Common/Entities/Lithium.BaseEntities/obj/Debug/net6.0/refint/Lithium.BaseEntities.dll
+/Users/nischalvarasada/Projects/Lithium/src/Common/Entities/Lithium.BaseEntities/obj/Debug/net6.0/Lithium.BaseEntities.pdb
+/Users/nischalvarasada/Projects/Lithium/src/Common/Entities/Lithium.BaseEntities/obj/Debug/net6.0/ref/Lithium.BaseEntities.dll
